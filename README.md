@@ -1,5 +1,5 @@
 # NASA_APOD
-===========
+
 
 ## DESCRIPTION:
     Flask server returning Astronomical picture of the day along with the details using
@@ -33,8 +33,7 @@
     
 ## OUTPUT:
 
-![Screenshot](github.com/samsepi0x0/NASA_APOD/screenshots/Screenshot from 2021-04-15 00-17-09.png)
+![Screenshot](https://github.com/samsepi0x0/NASA_APOD/blob/main/screenshots/Screenshot%20from%202021-04-15%2000-17-09.png)
 
-![Screenshot](github.com/samsepi0x0/NASA_APOD/screenshots/Screenshot from 2021-04-15 00-17-09.png)
+![Screenshot](https://github.com/samsepi0x0/NASA_APOD/blob/main/screenshots/Screenshot%20from%202021-04-15%2000-17-33.png)
 
-![Screenshot](github.com/samsepi0x0/NASA_APOD/screenshots/Screenshot from 2021-04-15 00-17-09.png)
