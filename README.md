@@ -1,6 +1,8 @@
 # NASA_APOD
 
+
    Simple Flask Server Application using NASA APOD API and sone jinja templates
+
 
 
  ## DESCRIPTION:
@@ -9,7 +11,9 @@
    The server created backend for user input(date), filters it and renders accordingly.
    It does not works for fictional dates. 
    Furthurmore, the APOD API only works for dates between 5th June 1995 and present date.
- 
+
+
+
  ## REQUIREMENTS:
    The following code requires the following packages installed for python3:
    
@@ -20,6 +24,8 @@
     
    Furthurmore, the code requires a NASA APOD API which can be easily achieved by signing
    in on their website: https://api.nasa.gov
+ommands
+
 
  ## USAGE:
    Clone the repository using command:
@@ -38,8 +44,10 @@
     
    Open url: 127.0.0.1:5000 on any browser to see the frontend.
     
-    
+
+
  ## OUTPUT:
+
 
    ![Screenshot](https://github.com/samsepi0x0/NASA_APOD/blob/main/screenshots/Screenshot%20from%202021-04-15%2000-17-09.png)
 
