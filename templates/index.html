@@ -1,0 +1,53 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        #headings{
+            text-align: center;
+        }
+        .flex-box-0 {
+            display: flex;
+            padding: 10px;
+            justify-content: space-around;
+        }
+        .flex-box-1 {
+            display: flex;
+            padding: 10px;
+            flex-wrap: wrap;
+            flex-direction: row;
+            justify-content: space-around;
+        }
+        .flex-box div {
+            padding: 10px;
+            align-items: center;
+        }
+    </style>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <title>NASA APOD</title>
+</head>
+<body>
+    <div class="container-fluid"><br><br>
+        <h2 id="headings" style="padding-top:2%; font-size: 600%;"><u><b>NASA APOD</b></u></h2>
+        <br>
+        <h4 id="headings" style="padding-top: 3%;"><u>NASA</u>'s <u>A</u>stronomical <u>P</u>icture <u>o</u>f the <u>D</u>ay is an API that finds a different<br>image of our universe, along with a brief explanation written by professional astronomer.</h4>
+        <br>
+        <div class="flex-box-0">
+            <form id="values" method='POST'>
+                <input type="number" name="date" placeholder="Date" size=5 id="date">
+                <input type="number" name="month" placeholder="Month" size=6 id="month">
+                <input type="number" name="year" placeholder="Year" size=5 id="year">
+                <br> <br>
+                <div class="flex-box-0">
+                    <button class="btn btn-primary">
+                        Find Image
+                    </button>
+                </div>
+                <div class="flex-box-0">
+                    <input type="reset" class="btn btn-danger" value="Reset">
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
