@@ -1,15 +1,15 @@
 # NASA_APOD
 
 
-   Simple Flask Server Application using NASA APOD API and sone jinja templates
+   Simple Flask Server Application using NASA APOD API and some jinja templates.
 
 
 
  ## DESCRIPTION:
-   Flask server returning Astronomical picture of the day along with the details using
+   Flask server returns the Astronomical picture of the day along with the details using
    NASA's APOD API.
    The server created backend for user input(date), filters it and renders accordingly.
-   It does not works for fictional dates. 
+   The site does not works for fictional dates. 
    Furthurmore, the APOD API only works for dates between 5th June 1995 and present date.
 
 
@@ -22,9 +22,8 @@
       flask
     ```
     
-   Furthurmore, the code requires a NASA APOD API which can be easily achieved by signing
-   in on their website: https://api.nasa.gov
-ommands
+   Also, the code requires a NASA APOD API which can be easily achieved by signing
+   in on their website: [https://api.nasa.gov](https://api.nasa.gov).
 
 
  ## USAGE:
